@@ -1,0 +1,15 @@
+anomaly_count,confirmed_count,failure_count,measurement_count,measurement_start_day,ok_count,test_name
+0,0,0,1,2022-05-13,1,psiphon
+0,0,0,1,2022-05-15,1,psiphon
+0,0,0,11,2022-08-03,11,psiphon
+0,0,0,2,2022-08-04,2,psiphon
+1,0,0,2,2022-08-05,1,psiphon
+0,0,0,3,2022-08-06,3,psiphon
+0,0,0,2,2022-08-08,2,psiphon
+0,0,0,1,2022-05-13,1,tor
+0,0,0,1,2022-05-15,1,tor
+3,0,0,10,2022-08-03,7,tor
+2,0,0,2,2022-08-04,0,tor
+1,0,0,1,2022-08-05,0,tor
+1,0,0,3,2022-08-06,2,tor
+0,0,0,2,2022-08-08,2,tor

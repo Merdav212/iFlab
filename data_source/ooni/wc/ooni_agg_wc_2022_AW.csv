@@ -1,0 +1,10 @@
+anomaly_count,category_code,confirmed_count,failure_count,measurement_count,measurement_start_day,ok_count
+2,ANON,0,1,7,2022-11-25,4
+0,COMT,0,0,6,2022-06-13,6
+0,COMT,0,0,6,2022-11-25,6
+0,GRP,0,0,12,2022-06-13,12
+1,GRP,0,0,83,2022-11-25,82
+0,MMED,0,0,3,2022-06-13,3
+0,MMED,0,0,3,2022-11-25,3
+0,NEWS,0,0,1,2022-06-13,1
+0,NEWS,0,0,1,2022-11-25,1

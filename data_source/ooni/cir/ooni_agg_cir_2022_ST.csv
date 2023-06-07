@@ -1,0 +1,2 @@
+anomaly_count,confirmed_count,failure_count,measurement_count,measurement_start_day,ok_count,test_name
+0,0,0,1,2022-09-04,1,psiphon
