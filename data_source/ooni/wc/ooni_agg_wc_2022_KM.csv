@@ -1,5 +1,0 @@
-anomaly_count,category_code,confirmed_count,failure_count,measurement_count,measurement_start_day,ok_count
-0,COMT,0,0,6,2022-07-02,6
-0,GRP,0,0,4,2022-07-02,4
-0,MMED,0,0,3,2022-07-02,3
-0,NEWS,0,0,1,2022-07-02,1

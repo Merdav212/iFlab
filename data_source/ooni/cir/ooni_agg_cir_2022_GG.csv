@@ -1,8 +1,0 @@
-anomaly_count,confirmed_count,failure_count,measurement_count,measurement_start_day,ok_count,test_name
-0,0,0,1,2022-01-09,1,psiphon
-0,0,0,1,2022-08-24,1,psiphon
-0,0,12,12,2022-01-09,0,stunreachability
-0,0,0,12,2022-08-24,12,stunreachability
-0,0,0,1,2022-01-09,1,tor
-0,0,0,1,2022-08-24,1,tor
-0,0,0,1,2022-08-24,1,torsf
