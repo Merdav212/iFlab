@@ -1,0 +1,23 @@
+# Use the official Flask image as the base image
+FROM tiangolo/uwsgi-nginx-flask:python3.8
+
+# Install any required dependencies, in this case, "requests"
+RUN pip install requests
+RUN pip install pandas
+RUN pip install pymongo
+RUN pip install minio
+# Copy your application code into the container
+COPY app.py /app/
+COPY PythonScript.py /app/PythonScript.py
+COPY confg.json /app/confg.json
+COPY FlaskLogFile.log /app/FlaskLogFile.log
+COPY . /app
+
+# Expose the port on which your Flask app will run (if needed)
+EXPOSE 5002
+
+# Set the Flask environment to development
+ENV FLASK_DEBUG=development
+
+# Command to start your Flask app
+CMD ["python", "app.py", ">>", "/app/FlaskLogFile.log", "2>&1"]

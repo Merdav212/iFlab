@@ -1,0 +1,29 @@
+{
+    "mongodb_uri": "mongodb://localhost:27017/",
+    "mongodb_database": "mydb",
+    "excluded_countries": [ "VG", "KN", "ER", "PW", "TC", "FM", "SX", "PN", "DM", "BL", "GS", "MS", "AI", "VU", "TK", "CX", "GI", "NF", "WF", "AQ", "NR",
+    
+        "AX", "SH", "KP", "EH", "GW", "UM", "VA", "PM", "BV", "GQ", "MH", "WS", "ZA", "SM", "AS", "FK", "TF", "NU", "KI", "VI", "IO",
+    
+        "SJ", "BM", "HM", "TO", "TV", "MF", "CK", "MP", "NR", "AX"
+    
+    ],
+  
+    "radar_base_url": "https://api.cloudflare.com/client/v4/radar/http/timeseries_groups",
+    "radar_auth_email": "mercedeh.rezaei@yahoo.com",
+    "radar_auth_key": "3acceb864e9602ba3dfd472bc1e1136e7b1fd",
+  
+    "ooni_web_base_url": "https://api.ooni.io/api/v1/aggregation",
+    "ooni_circumvention_base_url": "https://api.ooni.io/api/v1/aggregation",
+    "ooni_auth_email": "",
+    "ooni_auth_key": "",
+  
+    "minio_endpoint": "localhost:9000",
+    "minio_access_key": "iflab",
+    "minio_secret_key": "iflab123",
+    "minio_secure": false,
+    "minio_bucket": "my-minio-bucket",
+    
+    "cc_filepath": "/home/lunet/wsmj3/fraganal/data_source/cc_alpha2_3.csv"
+  }
+  
