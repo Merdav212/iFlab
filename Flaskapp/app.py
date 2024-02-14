@@ -3,15 +3,19 @@ from PythonScript import main
 import threading
 import logging
 from flask.logging import default_handler
+from flask_caching import Cache
 
 
 
 app = Flask(__name__)
+cache = Cache(app, config={'CATCH_TYPE': 'simple'})
 
 app.logger.removeHandler(default_handler)
 # Configure the logging for your Flask app
 logging.basicConfig(level=logging.DEBUG)  # Set the desired logging level
 
+
+@cache.cached(timeout=600, key_prefix= 'your_endpoint')
 def run_main_in_thread(start_date, end_date, database_name):
     with app.app_context():
         try:

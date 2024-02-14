@@ -6,6 +6,9 @@ RUN pip install requests
 RUN pip install pandas
 RUN pip install pymongo
 RUN pip install minio
+RUN pip install Flask-Caching
+RUN pip install numpy
+
 # Copy your application code into the container
 COPY app.py /app/
 COPY PythonScript.py /app/PythonScript.py
